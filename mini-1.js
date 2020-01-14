@@ -1,11 +1,11 @@
 // Print message and color it.
 /*
- * Code almost always read from top to bottom, like a script for a movie.
- * That's why its called a script. Each line is read in order, so if
- * you specify something later that contradicts an earlier statement, 
- * You override your earlier statement (e.g. if you write that 
+ * Code is almost always read from top to bottom, like a script for a movie.
+ * A single text file of code, like this, is called a script. Each line is  
+ * read in order, so if you specify something later that contradicts an earlier  
+ * statement, you override your earlier statement (e.g. if you write that 
  * LightIsOn = True, and at the next line you write that LightIsOn = False,
- * LightIsOn is now False after reading both lines in order.
+ * LightIsOn is now False after reading both lines in order).
  */
 
 /* 
