@@ -2,13 +2,16 @@
 ## Assignments from NMDD3500 at Fordham University, with detailed step-by-step explanations.  
   
 I include in-line notes in my code to help explain each step of my solution. 
-```
+```javascript
 // Notes look like this
 
 /*
  * And this
  * for multi-line notes
  */
+ 
+ // Code comments are on top of the lines they explain
+ text("Above comment is for this code line", 0, 0);
 ```
 If there's an assignment you're stuck on, read through the notes and try to code out your own solution with the same thought process.  
 If you still need help, feel free to contact me through our Slack room for the class.  
