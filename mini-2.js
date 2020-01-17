@@ -1,12 +1,12 @@
 // 4x4 grid with two circles and two squares.
 
 function setup() {
-  // Use the canvas dimensions to layout your grid.
+  // Remember the canvas dimensions for laying out your grid lines.
   createCanvas(400, 400);
 }
 
 function draw() {
-  // Grid
+  // Make the grid by evenly spacing lines across the canvas.
   // Column lines (x1, y1, x2, y2) at half and quarter points of canvas
   // Set line color lol
   stroke(0, 255, 255);
