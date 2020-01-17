@@ -33,8 +33,8 @@ function setup() {
 function draw() {
   // Background color on canvas (r, g, b)
   background(0, 100, 100);
+  // Set fill color for text (r, g, b)
+  fill(0, 200, 100);
   // Display text at coordinate location on canvas ("message", x, y)
   text("My name is James", 10, 30);
-  // Color in text (r, g, b)
-  fill(0, 200, 100);
 }
