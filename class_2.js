@@ -6,8 +6,8 @@ function setup() {
 
 /* 
  * Plan out your script by first writing down what you need (eg. what shapes you want)
- * Then ***CHECK THE REFERENCE*** to see which functions you need (eg. ellipse(), rect())
- * Write down the argument order for each function somewhere then do your thing.
+ * Then ***CHECK THE REFERENCE*** to see which functions will help you (eg. ellipse(), rect())
+ * Write down the argument order for each function somewhere (eg. ellipse(x, y, w, h) then try using these functions.
  */
  
 function draw() {
@@ -18,7 +18,7 @@ function draw() {
   rect(160, 50, 70, 150);
   
   // Draw a "face" (ellipse(x, y, w, h))
-  // Face is drawn after body to draw it over body
+  // Face is drawn after body to place it in front of the body
   fill(200, 100, 200);
   ellipse(200, 50 ,100, 100);
   
